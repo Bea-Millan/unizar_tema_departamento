@@ -1,0 +1,19 @@
+name: unizar_departamento
+type: theme
+description: 'Tema responsive para departamentos'
+base theme: unizar_base
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - unizar_departamento/global
+regions:
+  cabecera_sup: 'Cabecera superior'
+  cabecera_med_izquierda: 'Cabecera área izquierda'
+  cabecera_med_derecha: 'Cabecera área derecha'
+  menu_principal: 'Banda menu principal'
+  imagen_cabecera: 'Imagen cabecera'
+  banda_superior: 'Banda superior'
+  content: 'Contenido'
+  columna_lateral: 'Columna Lateral'
+  footer: 'Footer de la pagina'
+  footer_inferior: 'Región inferior del footer'
