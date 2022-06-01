@@ -135,4 +135,19 @@ ul.sf-menu li.sfHover > ul {
     }
 }
 
+@media  (max-width: 992px){
+
+    .icon-unizar-nombre:before {
+        color: white;
+    }
+    .menu-icon-unizar span {
+        background: white;
+    }
+
+    .menu-icon-unizar span::before,
+    .menu-icon-unizar span::after {
+        background: white;
+    }
+}
+
 /* eol first-breakpoint */
