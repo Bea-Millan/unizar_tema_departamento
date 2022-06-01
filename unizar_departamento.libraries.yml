@@ -6,8 +6,6 @@ global:
       '//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap': { type: external, minified: true }
     theme:
       css/custom.css: {}
-  js:
-    js/departamentos.js: {}
   dependencies:
     - core/jquery
 
