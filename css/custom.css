@@ -5,8 +5,8 @@
     --colorAzul-filete: #1E91BC;
     --colorAzul-enlace: #0084b4;
 
-    --font: Montserrat, sans-serif;
-    --font2: Arial, sans-serif;
+    --font: Lato, sans-serif;
+    --font2: Karla, sans-serif;
 
     --color-custom1: var(--colorAzul);
     --color-custom1-fondo: var(--colorAzul-fondo);
@@ -49,6 +49,14 @@ header {
 
 /* eol header */
 
+/* bloques */
+
+.region-content .block {
+    margin: 4rem 0 5rem;
+}
+
+/* eol bloques */
+
 /* menu */
 
 .main-menu.nav {
@@ -68,8 +76,8 @@ header {
 
 .nav .region-menu-principal .sf-menu a,
 .nav .region-menu-principal .sf-menu li > span {
-    font-size: 1.4rem;
-    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
 }
 
 ul.sf-menu.sf-horizontal.sf-shadow ul, ul.sf-menu.sf-vertical.sf-shadow ul, ul.sf-menu.sf-navbar.sf-shadow ul ul {
@@ -81,7 +89,6 @@ ul.sf-menu li:hover > ul,
 ul.sf-menu li.sfHover > ul {
     top: 4.5rem!important;
 }
-
 
 /* eol menu */
 
@@ -151,3 +158,11 @@ ul.sf-menu li.sfHover > ul {
 }
 
 /* eol first-breakpoint */
+
+/* bloque contacto */
+
+.block_contacto [class^="info-servicio"] {
+    font-size: 1.4rem;
+}
+
+/* eol bloque contacto */
